@@ -1,0 +1,16 @@
+package com.scaler.dsa.recursion.backtracking;
+
+
+
+public class Generate3Pairs {
+	
+	public void gen(int[] a, int idx, List<int []> ans){
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

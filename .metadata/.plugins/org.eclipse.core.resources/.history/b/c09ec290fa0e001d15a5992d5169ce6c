@@ -1,0 +1,10 @@
+package com.scaler.dsa.recursion.backtracking;
+
+public class Generate2Pairs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

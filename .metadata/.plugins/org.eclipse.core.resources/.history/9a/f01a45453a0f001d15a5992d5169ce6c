@@ -1,0 +1,15 @@
+package com.scaler.dsa.recursion.backtracking;
+
+/**
+ * 
+ * @author Divyang
+ * Generating all permutations N distinct elements
+ */
+public class GenerateNElements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.scaler.dsa.recursion.backtracking;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Generate3Pairs {
+	
+	public void gen(int[] a, int idx, List<int []> ans){
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		List<int []> ans = new ArrayList();
+		
+		
+	}
+
+}

@@ -1,0 +1,31 @@
+package com.scaler.dsa.recursion.backtracking;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * 
+ * @author Divyang
+ * Generate All possible array with size 3. which have values 0 or 1
+ *
+ */
+public class Generate2Pairs {
+	
+	public int gen(int[] a, int idx, List<int[]> list) {
+		
+		
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int size = 3;
+		int[] arr = new int[(int) Math.pow(2, size)];
+		
+		List<int[]> list = new ArrayList<int[]>();
+		new Generate2Pairs().gen(arr, 0, list);
+		
+		System.out.println(list);
+	}
+
+}

@@ -1,0 +1,53 @@
+package com.scaler.dsa.recursion.backtracking;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class GeneratePairWithDuplicate {
+
+	class Fill {
+		public int count;
+		public int val; 
+	}
+	
+	public void gen(Fill[] a, int idx, int[] input, List<List<Integer>> ans){
+		
+		if(idx == a.length){
+			
+			List<Integer> sub = new ArrayList(); 
+			
+			for(int i=0; i<a.length; i++){
+				
+				if(a[i] == 1){
+					sub.add(input[i]);
+				}
+			}
+			
+			ans.add(sub);
+			return;
+		}
+		
+		for(){
+			
+		}
+		/*
+		a[idx] = 0;
+		gen(a, idx+1, input, ans);
+		a[idx] = 1;
+		gen(a, idx+1, input, ans);
+		*/
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Fill[] input = new Fill[3];
+		List<List<Integer>> ans = new ArrayList();
+		
+		new GeneratePairWithDuplicate().gen(new int[3], 0, input, ans);
+		
+		System.out.println(ans);
+	}
+
+}

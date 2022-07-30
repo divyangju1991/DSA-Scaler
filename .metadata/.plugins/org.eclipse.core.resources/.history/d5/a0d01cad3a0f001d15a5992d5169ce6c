@@ -1,0 +1,30 @@
+package com.scaler.dsa.recursion.backtracking;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * 
+ * @author Divyang
+ * Generating all permutations N distinct elements
+ */
+public class GenerateNElements {
+
+	public void gene(int[] a, int idx, List<int[]> ans){
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] input = new int[]{1,2,3,4};
+		
+		List<int[]> ans = new ArrayList<>();
+		
+		new GenerateNElements().gene(a, 0, ans);
+		
+		
+
+	}
+
+}

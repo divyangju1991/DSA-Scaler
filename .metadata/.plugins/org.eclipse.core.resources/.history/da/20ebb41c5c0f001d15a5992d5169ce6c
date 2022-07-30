@@ -1,0 +1,64 @@
+package com.scaler.dsa.recursion.backtracking;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+/**
+ * 
+ * @author Divyang
+ * Generating all permutations N distinct elements
+ * 
+ */
+public class GenerateNElements {
+
+	public void gen(int[] input, int l, int r, List<int[]> ans){
+		
+		if(l == input.length){
+			ans.add(input.clone());
+			return;
+		}
+		
+		for(int i=0; i<=r; i++){
+			swap(input, l, i);
+			gen(input, l+1, r, ans);
+			swap(input, l, i);
+		}
+	}
+	
+	public void swap(int a[], int prev, int next){
+		int tmp = a[prev];
+		a[prev] = a[next];
+		a[next] = tmp;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] input = new int[]{1,2,3};
+		
+		List<int[]> ans = new ArrayList<>();
+		
+		new GenerateNElements().gen(input.clone(), 0, input.length-1, ans);
+	
+		//(1,2,3) (1,3,2) (2,1,3) (2,3,1) (3,1,2) (3,2,1)
+		for(int[] arr : ans){
+			System.out.println(Arrays.toString(arr));
+		}
+		
+		System.out.println("############################");
+
+		
+        input = new int[]{1,2,3,4};
+		
+		ans = new ArrayList<>();
+		
+		new GenerateNElements().gen(input.clone(), 0, input.length-1, ans);
+	
+		//(1,2,3) (1,3,2) (2,1,3) (2,3,1) (3,1,2) (3,2,1)
+		for(int[] arr : ans){
+			System.out.println(Arrays.toString(arr));
+		}
+	}
+
+}
