@@ -40,3 +40,6 @@ Explanation 2:<br />
  3 quadruplets which make a rectangle are: (1, 1), (2, 1), (2, 2), (1, 2)
                                            (1, 1), (3, 1), (3, 2), (1, 2)
                                            (2, 1), (3, 1), (3, 2), (2, 2)
+                                           
+<a class="Pagination-link1SfnH-8-DxMA Pagination-link_leftDFtcFdHnt7Ok" aria-label="Previous Page: Manage Pages" href="https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/hashing/assignment/read.md"><span class="Pagination-iconGA9TkfVeYvTp icon-arrow-left2"></span><div class="Pagination-text3yhjKs84FCa6 Pagination-text_left3HzCMqntTYq5">Prev</div></a>
+<a class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4" aria-label="Next Page: Raw Mode Editor" href="https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/hashing/assignment/read2ndPage.md"><div class="Pagination-text3yhjKs84FCa6 Pagination-text_right3I2htOlt_CfS">Next</div><span class="Pagination-iconGA9TkfVeYvTp icon-arrow-right2"></span></a>
