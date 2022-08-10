@@ -39,6 +39,4 @@ Explanation 1:<br />
 Explanation 2:<br />
  3 quadruplets which make a rectangle are: (1, 1), (2, 1), (2, 2), (1, 2)
                                            (1, 1), (3, 1), (3, 2), (1, 2)
-                                           (2, 1), (3, 1), (3, 2), (2, 2)<br /><br />
-										   
-<https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/hashing/assignment/read2ndPage.md>; rel="next"
+                                           (2, 1), (3, 1), (3, 2), (2, 2)
