@@ -1,12 +1,12 @@
-Count Rectangles
+Count Rectangles[^1]
 **Problem Description**
 Given two arrays of integers A and B of size N each, where each pair (A[i], B[i]) for 0 <= i < N represents a unique point (x, y) in a 2-D Cartesian plane.
-\n
+
 Find and return the number of unordered quadruplet (i, j, k, l) such that (A[i], B[i]), (A[j], B[j]), (A[k], B[k]) and (A[l], B[l]) form a rectangle with the rectangle having all the sides parallel to either x-axis or y-axis.
-\n
-\n
-\n
-<b>Problem Constraints</b>\n
+
+
+
+**Problem Constraints**
 1 <= N <= 2000\n
 0 <= A[i], B[i] <= 109\n
 \n
