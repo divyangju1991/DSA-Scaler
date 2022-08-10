@@ -1,0 +1,52 @@
+package com.scaler.dsa.hashing.assignment;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+public class CountRectangles {
+	
+	private Map<String, Integer> getFreqMap(ArrayList<Integer> A, ArrayList<Integer> B){
+		
+		 int n = A.size();
+	     Map<String, Integer> map = new HashMap<>();
+	     
+	     for(int i=0; i<n; i++){
+	    	 String key = A.get(i)+""+B.get(i);
+	    	 if(map.get(key) == null){
+	    		 map.put(key, 1);
+	    	 } else {
+	    		 map.put(key, map.get(key)+1);
+	    	 }
+	     }
+	     
+	     return map;
+	        
+	}
+	
+	public int solve(ArrayList<Integer> A, ArrayList<Integer> B) {
+        int n = A.size();
+        Map<String, Integer> map = getFreqMap(A, B);
+        
+        
+        for(int i=0; i<n; i++){
+        	
+        	for(int j=i+1; j<n; j++){
+        		
+        		int p1 = ;
+        		
+        		if(A.get(i) !== A.get(j) && B.get(i) != B.get(j)) {
+        			
+        		}
+        	}
+        }
+        
+        return 1;
+    }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

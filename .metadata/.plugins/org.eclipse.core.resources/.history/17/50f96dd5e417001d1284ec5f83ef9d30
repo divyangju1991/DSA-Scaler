@@ -1,0 +1,18 @@
+package com.scaler.dsa.hashing.assignment;
+
+import java.util.ArrayList;
+
+public class PointsOnSameLine {
+	
+	public int solve(ArrayList<Integer> x, ArrayList<Integer> y) {
+		if(){
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

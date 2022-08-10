@@ -1,0 +1,24 @@
+package com.scaler.dsa.hashing.assignment;
+
+import java.util.ArrayList;
+
+public class CountRectangles {
+	
+	public int solve(ArrayList<Integer> A, ArrayList<Integer> B) {
+        int n = A.size();
+        int[int[]][] map = new int[new int[2]][2];
+
+        for(int i=0; i<n; i++){
+        	int[] tmp = new int[]{A.get(i), B.get(i)};
+            map[tmp]++;    
+        }
+        
+        return 1;
+    }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

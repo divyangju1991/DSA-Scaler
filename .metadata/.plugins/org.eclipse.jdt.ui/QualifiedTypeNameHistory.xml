@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.scaler.dsa.recursion.Factorial"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.recursion.Fibonaaci"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.recursion.Power"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.recursion.backtracking.Generate2Pairs"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.recursion.backtracking.Generate3Pairs"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.recursion.backtracking.GeneratePairWithDuplicate"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.recursion.backtracking.GenerateNElements"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.recursion.backtracking.assignment.Solution_2"/>
+<fullyQualifiedTypeName name="java.util.concurrent.LinkedBlockingDeque"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.recursion.backtracking.assignment.Sudoku"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.recursion.backtracking.homework.NumberOfSquareful"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.recursion.backtracking.homework.LetterPhone"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.recursion.backtracking.assignment.MinimumSwaps"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.recursion.backtracking.assignment.Sixlets"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.recursion.backtracking.assignment.SequenceProblem"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.sorting.assignment.ClosestPointToOrigin"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.sorting.assignment.SumDiff"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.hashing.assignment.WindowString"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.hashing.assignment.ReplicatingSubstring"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.POA"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="com.scaler.dsa.hashing.assignment.PointsOnSameLine"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

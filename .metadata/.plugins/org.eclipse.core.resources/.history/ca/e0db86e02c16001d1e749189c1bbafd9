@@ -1,0 +1,15 @@
+package com.scaler.dsa.sorting.assignment;
+
+import java.util.ArrayList;
+
+public class ClosestPointToOrigin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList<ArrayList> list = new ArrayList<>();
+		
+		
+	}
+
+}

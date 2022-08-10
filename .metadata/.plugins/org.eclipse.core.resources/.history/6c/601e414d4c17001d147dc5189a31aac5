@@ -1,0 +1,16 @@
+package com.scaler.dsa.hashing.homework;
+
+import java.util.ArrayList;
+
+public class CompareSortedArrays {
+
+	public ArrayList<Integer> solve(ArrayList<Integer> A, ArrayList<ArrayList<Integer>> B) {
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

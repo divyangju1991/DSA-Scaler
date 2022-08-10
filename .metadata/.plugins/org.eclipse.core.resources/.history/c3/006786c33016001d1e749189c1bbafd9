@@ -1,0 +1,10 @@
+package com.scaler.dsa.sorting.assignment;
+
+public class SumDiff {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

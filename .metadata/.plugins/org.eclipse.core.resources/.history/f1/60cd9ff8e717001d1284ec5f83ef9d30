@@ -1,0 +1,67 @@
+package com.scaler.dsa.hashing.assignment;
+
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
+public class PointsOnSameLine {
+	
+	 public int solve(ArrayList<Integer> x, ArrayList<Integer> y) {
+
+	        int ans = 0;
+	        int currMax = 0;
+	        int overlap = 0;
+	        int n = x.size();
+	        if(n<3){
+	        	return n;
+	        }
+
+	        Map<String, Integer> map = new HashMap<>();
+
+	        for(int i=0; i<n; i++){
+	            currMax = 0;
+	            overlap = 0;
+
+	            for(int j=i+1; j<n; j++){
+	                if(x.get(i) == x.get(j) && y.get(i) == y.get(j)){
+	                    ++overlap;
+	                } else {
+	                    int xDiff = Math.abs(x.get(j) - x.get(i));
+	                    int yDiff = Math.abs(y.get(j) - y.get(i));
+
+	                    int z = new BigInteger(String.valueOf(xDiff)).gcd(new BigInteger(String.valueOf(yDiff))).intValue();
+
+	                    xDiff /= z;
+	                    yDiff /= z;
+
+	                    //double key = (yDiff == 0) ? (double) xDiff : ((double) xDiff/ (double) yDiff);
+	                    String key = xDiff+","+yDiff;
+	                    map.put(key, map.getOrDefault(key, 1)+1);
+	                    currMax = Math.max(currMax, map.get(key));
+	                }
+	            }
+
+	            map.clear();
+                ans = Math.max(ans, currMax+overlap);
+	        }
+
+	        return ans;
+	    }
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub
+				ArrayList<Integer> x = new ArrayList<>(Arrays.asList(6, -5, 3, -6, 3, -9, -8, -7));
+				ArrayList<Integer> y = new ArrayList<>(Arrays.asList(5, 0, -8, 1, -1, 6, 3, -3));
+				
+				System.out.println(new PointsOnSameLine().solve(x, y));
+				
+				x = new ArrayList<>(Arrays.asList(3, 1, 4, 5, 7, -9, -8, 6));
+				y = new ArrayList<>(Arrays.asList(4, -8, -3, -2, -1, 5, 7, -4));
+				
+				System.out.println(new Worst_PointsOnSameLine().solve(x, y));
+	}
+
+}

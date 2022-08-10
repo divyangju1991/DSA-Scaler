@@ -1,0 +1,61 @@
+package com.scaler.dsa.hashing.assignment;
+
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+public class PointsOnSameLine {
+	
+	public int solve(ArrayList<Integer> x, ArrayList<Integer> y) {
+
+        int ans = 0;
+        int currMax = Integer.MIN_VALUE;
+        int overlap = 0;
+        int n = x.size();
+
+        Map<String, Integer> map = new HashMap<>();
+
+        for(int i=0; i<n; i++){
+            currMax = Integer.MIN_VALUE;
+            overlap = 0;
+
+            for(int j=i+1; j<n; j++){
+                if(x.get(i) == x.get(j) && y.get(i) == y.get(j)){
+                    ++overlap;
+                } else {
+                    int xDiff = x.get(j) - x.get(i);
+                    int yDiff = y.get(j) - y.get(i);
+
+                    int z = new BigInteger(String.valueOf(xDiff)).gcd(new BigInteger(String.valueOf(yDiff))).intValue();
+
+                    xDiff /= z;
+                    yDiff /= z;
+
+                    String key = xDiff+","+yDiff;
+                    if(map.get(key) == null){
+                        map.put(key, 1);
+                    } else {
+                        map.put(key, map.get(key)+1);
+                    }
+
+                    currMax = Math.max(currMax, map.get(key));
+                }
+            }
+
+            map.clear();
+            ans = Math.max(ans, currMax + overlap +1);
+        }
+
+        return ans;
+
+    }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> x = new ArrayList<>();
+		ArrayList<Integer> y = new ArrayList<>();
+		
+	}
+
+}
