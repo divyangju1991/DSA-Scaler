@@ -5,50 +5,38 @@ Given two arrays of integers A and B of size N each, where each pair (A[i], B[i]
 Find and return the number of unordered quadruplet (i, j, k, l) such that (A[i], B[i]), (A[j], B[j]), (A[k], B[k]) and (A[l], B[l]) form a rectangle with the rectangle having all the sides parallel to either x-axis or y-axis.<br />
 <br />
 <br />
-<br />
-**Problem Constraints**
+**Problem Constraints**<br />
 1 <= N <= 2000\n
 0 <= A[i], B[i] <= 109<br />
 <br />
 <br />
-
-Input Format<br />
+**Input Format**<br />
 The first argument given is the integer array A.<br />
 The second argument given is the integer array B.<br />
 <br />
 <br />
-
-Output Format
-Return the number of unordered quadruplets that form a rectangle.
-
-
-
-Example Input
-Input 1:
-
- A = [1, 1, 2, 2]
- B = [1, 2, 1, 2]
-Input 1:
-
- A = [1, 1, 2, 2, 3, 3]
- B = [1, 2, 1, 2, 1, 2]
-
-
-Example Output
-Output 1:
-
- 1
-Output 2:
-
- 3
-
-
-Example Explanation
-Explanation 1:
-
- All four given points make a rectangle. So, the answer is 1.
-Explanation 2:
-
+**Output Format**<br />
+Return the number of unordered quadruplets that form a rectangle.<br />
+<br />
+<br />
+**Example Input**<br />
+Input 1:<br />
+ A = [1, 1, 2, 2]<br />
+ B = [1, 2, 1, 2]<br />
+Input 1:<br />
+ A = [1, 1, 2, 2, 3, 3]<br />
+ B = [1, 2, 1, 2, 1, 2]<br />
+<br />
+**Example Output**<br />
+Output 1:<br />
+ 1<br />
+Output 2:<br />
+ 3<br />
+<br />
+**Example Explanation**
+Explanation 1:<br />
+ All four given points make a rectangle. So, the answer is 1.<br />
+Explanation 2:<br />
  3 quadruplets which make a rectangle are: (1, 1), (2, 1), (2, 2), (1, 2)
                                            (1, 1), (3, 1), (3, 2), (1, 2)
                                            (2, 1), (3, 1), (3, 2), (2, 2)
