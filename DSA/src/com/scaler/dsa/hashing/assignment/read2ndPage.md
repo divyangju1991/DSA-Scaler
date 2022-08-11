@@ -1,4 +1,4 @@
- **Count Right Triangles**<br />
+ **Count Right Triangles**<br /><br />
 **Problem Description**<br />
 Given two arrays of integers A and B of size N each, where each pair (A[i], B[i]) for 0 <= i < N represents a unique point (x, y) in 2D Cartesian plane.<br />
 
