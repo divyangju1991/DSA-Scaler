@@ -1,0 +1,52 @@
+package com.scaler.dsa.string.assignment;
+
+import java.util.ArrayList;
+
+public class LongestCommonString {
+	
+	public String longestCommonPrefix(ArrayList<String> list) {
+
+		int n = list.size();
+		
+		for(int i=0; i<n; i++){	
+			int l=0, r=0;
+        	int sum=0;
+			String input = list.get(i);
+			int len = input.length();
+
+            for(int j=1; j<len; j++){
+                if(j>R){
+                    L=R=j;
+                    while(R<len && in[R-L]==in[R])
+                        R++;
+                     
+                    z[j]=R-L;
+                    R--;                    
+                }
+                else{
+                    int k=j-L;
+                    if(z[k]<R-j+1)
+                        z[j]=z[k];
+                    else{
+                        L=j;
+                        while(R<len && in[R-L]==in[R])
+                            R++;
+                         
+                        z[j]=R-L;
+                        R--;                        
+                    }
+                }
+                sum=sum+z[j];
+            }
+             
+	}
+	return sum+len;
+
+    }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
