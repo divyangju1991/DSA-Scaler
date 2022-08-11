@@ -1,13 +1,14 @@
-Count Rectangles<br />
+**Points on same line**<br /><br />
 **Problem Description**<br />
-Given two arrays of integers A and B of size N each, where each pair (A[i], B[i]) for 0 <= i < N represents a unique point (x, y) in a 2-D Cartesian plane.<br />
+Given two arrays of integers A and B describing a pair of (A[i], B[i]) coordinates in a 2D plane. A[i] describe x coordinates of the ith point in the 2D plane, whereas B[i] describes the y-coordinate of the ith point in the 2D plane.<br />
 
-Find and return the number of unordered quadruplet (i, j, k, l) such that (A[i], B[i]), (A[j], B[j]), (A[k], B[k]) and (A[l], B[l]) form a rectangle with the rectangle having all the sides parallel to either x-axis or y-axis.<br />
+Find and return the maximum number of points that lie on the same line.<br />
 <br />
 <br />
 **Problem Constraints**<br />
-1 <= N <= 2000\n
-0 <= A[i], B[i] <= 109<br />
+1 <= (length of the array A = length of array B) <= 1000<br />
+
+-10^5 <= A[i], B[i] <= 10^5<br />
 <br />
 <br />
 **Input Format**<br />
@@ -16,29 +17,28 @@ The second argument given is the integer array B.<br />
 <br />
 <br />
 **Output Format**<br />
-Return the number of unordered quadruplets that form a rectangle.<br />
+Return the maximum number of points which lie on the same line.<br />
 <br />
 <br />
 **Example Input**<br />
 Input 1:<br />
- A = [1, 1, 2, 2]<br />
- B = [1, 2, 1, 2]<br />
-Input 1:<br />
- A = [1, 1, 2, 2, 3, 3]<br />
- B = [1, 2, 1, 2, 1, 2]<br />
+ A = [-1, 0, 1, 2, 3, 3]<br />
+ B = [1, 0, 1, 2, 3, 4]<br />
+Input 2:<br />
+ A = [3, 1, 4, 5, 7, -9, -8, 6]<br />
+ B = [4, -8, -3, -2, -1, 5, 7, -4]<br />
 <br />
 **Example Output**<br />
 Output 1:<br />
- 1<br />
+ 4<br />
 Output 2:<br />
- 3<br />
+ 2<br />
 <br />
 **Example Explanation**
 Explanation 1:<br />
- All four given points make a rectangle. So, the answer is 1.<br />
+ The maximum number of point which lie on same line are 4, those points are {0, 0}, {1, 1}, {2, 2}, {3, 3}.<br />
 Explanation 2:<br />
- 3 quadruplets which make a rectangle are: (1, 1), (2, 1), (2, 2), (1, 2)
-                                           (1, 1), (3, 1), (3, 2), (1, 2)
-                                           (2, 1), (3, 1), (3, 2), (2, 2)<br /><br />
+ Any 2 points lie on a same line.<br /><br />
 										   
-<a class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4" aria-label="Next Page: Raw Mode Editor" href="https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/hashing/assignment/read2ndPage.md"><div class="Pagination-text3yhjKs84FCa6 Pagination-text_right3I2htOlt_CfS">Next</div><span class="Pagination-iconGA9TkfVeYvTp icon-arrow-right2"></span></a>
+<a class="Pagination-link1SfnH-8-DxMA Pagination-link_leftDFtcFdHnt7Ok" aria-label="Previous Page: Manage Pages" href="https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/hashing/assignment/read2ndPage.md"><span class="Pagination-iconGA9TkfVeYvTp icon-arrow-left2"></span><div class="Pagination-text3yhjKs84FCa6 Pagination-text_left3HzCMqntTYq5">Prev</div></a>
+<a class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4" aria-label="Next Page: Raw Mode Editor" href="https://github.com/divyangju1991/DSA-Scaler/edit/main/DSA/src/com/scaler/dsa/hashing/assignment/read4thPage.md"><div class="Pagination-text3yhjKs84FCa6 Pagination-text_right3I2htOlt_CfS">Next</div><span class="Pagination-iconGA9TkfVeYvTp icon-arrow-right2"></span></a>
