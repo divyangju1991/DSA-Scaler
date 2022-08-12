@@ -1,44 +1,39 @@
-**Count Rectangles**<br /><br />
+**Closest Palindrome**<br /><br />
 **Problem Description**<br />
-Given two arrays of integers A and B of size N each, where each pair (A[i], B[i]) for 0 <= i < N represents a unique point (x, y) in a 2-D Cartesian plane.<br />
+Groot has a profound love for palindrome which is why he keeps fooling around with strings.<br />
+A palindrome string is one that reads the same backward as well as forward.<br />
 
-Find and return the number of unordered quadruplet (i, j, k, l) such that (A[i], B[i]), (A[j], B[j]), (A[k], B[k]) and (A[l], B[l]) form a rectangle with the rectangle having all the sides parallel to either x-axis or y-axis.<br />
+Given a string A of size N consisting of lowercase alphabets, he wants to know if it is possible to make the given string a palindrome by changing exactly one of its character.<br />
 <br />
 <br />
 **Problem Constraints**<br />
-1 <= N <= 2000\n
-0 <= A[i], B[i] <= 109<br />
+1 <= N <= 10^5<br />
 <br />
 <br />
 **Input Format**<br />
-The first argument given is the integer array A.<br />
-The second argument given is the integer array B.<br />
+The first and only argument is a string A.<br />
 <br />
 <br />
 **Output Format**<br />
-Return the number of unordered quadruplets that form a rectangle.<br />
+Return the string YES if it is possible to make the given string a palindrome by changing exactly 1 character.<br /> Else, it should return the string NO.<br />
 <br />
 <br />
 **Example Input**<br />
 Input 1:<br />
- A = [1, 1, 2, 2]<br />
- B = [1, 2, 1, 2]<br />
-Input 1:<br />
- A = [1, 1, 2, 2, 3, 3]<br />
- B = [1, 2, 1, 2, 1, 2]<br />
+ A = "abbba"<br />
+Input 2:<br />
+ A = "adaddb"<br />
 <br />
 **Example Output**<br />
 Output 1:<br />
- 1<br />
+ "YES"<br />
 Output 2:<br />
- 3<br />
+ "NO"<br />
 <br />
 **Example Explanation**
 Explanation 1:<br />
- All four given points make a rectangle. So, the answer is 1.<br />
+We can change the character at index 3(1-based) to any other character. The string will be palindromic.<br />
 Explanation 2:<br />
- 3 quadruplets which make a rectangle are: (1, 1), (2, 1), (2, 2), (1, 2)
-                                           (1, 1), (3, 1), (3, 2), (1, 2)
-                                           (2, 1), (3, 1), (3, 2), (2, 2)<br /><br />
+ To make the string palindromic we need to change 2 characters.<br /><br />
 										   
-<p align="right"><a class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4" aria-label="Next Page: Raw Mode Editor" href="https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/hashing/assignment/read2ndPage.md">Next</a></p>
+<p align="right"><a class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4" aria-label="Next Page: Raw Mode Editor" href="https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/string/homework/read2ndPage.md">Next</a></p>
