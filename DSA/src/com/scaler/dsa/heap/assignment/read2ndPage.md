@@ -1,4 +1,4 @@
- ** Maximum array sum after B negations**<br /><br />
+** Maximum array sum after B negations**<br /><br />
 **Problem Description**<br />
 Given an array of integers A and an integer B. You must modify the array exactly B number of times. <br />
 In a single modification, we can replace any one array element A[i] by -A[i].<br />
