@@ -43,5 +43,5 @@ Explanation 1:<br />
  So, the output is [-1, -1, 6, 24, 60].<br />
  <br /><br />
 										   
-<a class="Pagination-link1SfnH-8-DxMA Pagination-link_leftDFtcFdHnt7Ok" aria-label="Previous Page: Manage Pages" href="https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/heap/assignment/read2ndPage.md"><span class="Pagination-iconGA9TkfVeYvTp icon-arrow-left2"></span><div class="Pagination-text3yhjKs84FCa6 Pagination-text_left3HzCMqntTYq5">Prev</div></a>
+<a class="Pagination-link1SfnH-8-DxMA Pagination-link_leftDFtcFdHnt7Ok" aria-label="Previous Page: Manage Pages" href="https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/heap/assignment/read2ndPage.md">Prev</a>
 <p align="right"><a class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4" aria-label="Next Page: Raw Mode Editor" href="https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/heap/assignment/read4thPage.md">Next</a></p>
