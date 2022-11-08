@@ -1,4 +1,4 @@
-** Product of 3**<br /><br />
+**Product of 3**<br /><br />
 **Problem Description**<br />
 Given an integer array A of size N.<br />
 
