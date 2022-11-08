@@ -41,5 +41,5 @@ Explanation 1:<br />
 Explanation 2:<br />
  Final array after B modifications = [57, -3, 14, 87, 42, 38, 31, 7, 28, 61]<br />
                                            
-<a class="Pagination-link1SfnH-8-DxMA Pagination-link_leftDFtcFdHnt7Ok" aria-label="Previous Page: Manage Pages" href="https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/heap/assignment/read.md"><span class="Pagination-iconGA9TkfVeYvTp icon-arrow-left2"></span><div class="Pagination-text3yhjKs84FCa6 Pagination-text_left3HzCMqntTYq5">Prev</div></a>
+<a class="Pagination-link1SfnH-8-DxMA Pagination-link_leftDFtcFdHnt7Ok" aria-label="Previous Page: Manage Pages" href="https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/heap/assignment/read.md">Prev</a>
 <p align="right"><a class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4" aria-label="Next Page: Raw Mode Editor" href="https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/heap/assignment/read3rdPage.md">Next</a></p>
