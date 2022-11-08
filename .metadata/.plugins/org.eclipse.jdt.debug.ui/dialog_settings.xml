@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="conditionHistory">
+		<item value="5" key="conditionHistoryEntryCount"/>
+		<item value="&quot;date&quot;.equals(word)" key="conditionHistoryEntry_0"/>
+		<item value="&quot;crikket&quot;.equals(word)" key="conditionHistoryEntry_1"/>
+		<item value="idx == 0" key="conditionHistoryEntry_4"/>
+		<item value="&quot;cricket&quot;.equals(word)" key="conditionHistoryEntry_2"/>
+		<item value="&quot;pello&quot;.equals(word)" key="conditionHistoryEntry_3"/>
+	</section>
 	<section name="org.eclipse.jdt.internal.debug.ui.ExpressionInformationControlCreator$ExpressionInformationControl">
 		<item value="500" key="SashWeightTree"/>
 		<item value="500" key="SashWeightDetails"/>

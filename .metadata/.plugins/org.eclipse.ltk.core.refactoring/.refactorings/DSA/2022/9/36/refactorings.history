@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;RemoveLoop.java&apos; to &apos;DSA/src/com.scaler.dsa.linkedList.assignment&apos;&#x0D;&#x0A;- Original project: &apos;DSA&apos;&#x0D;&#x0A;- Destination element: &apos;DSA/src/com.scaler.dsa.linkedList.assignment&apos;&#x0D;&#x0A;- Original element: &apos;com.scaler.dsa.linkedList.assignment.RemoveLoop.java&apos;" description="Copy compilation unit" destination="/src&lt;com.scaler.dsa.linkedList.assignment" element1="/src&lt;com.scaler.dsa.linkedList.assignment{RemoveLoop.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1662240411930" units="1" version="1.0"/>
+</session>

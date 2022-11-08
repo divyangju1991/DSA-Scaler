@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.scaler.dsa.trie.homework.ModifiedSearch&apos; to &apos;WorstModifiedSearch&apos;&#x0D;&#x0A;- Original project: &apos;DSA&apos;&#x0D;&#x0A;- Original element: &apos;com.scaler.dsa.trie.homework.ModifiedSearch&apos;&#x0D;&#x0A;- Renamed element: &apos;com.scaler.dsa.trie.homework.WorstModifiedSearch&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ModifiedSearch&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.scaler.dsa.trie.homework{ModifiedSearch.java[ModifiedSearch" matchStrategy="1" name="WorstModifiedSearch" qualified="false" references="true" similarDeclarations="false" stamp="1664703214818" textual="false" version="1.0"/>
+</session>
