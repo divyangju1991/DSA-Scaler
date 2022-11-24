@@ -1,45 +1,49 @@
-**Maximum array sum after B negations**<br /><br />
-**Problem Description**<br />
-Given an array of integers A and an integer B. You must modify the array exactly B number of times. <br />
-In a single modification, we can replace any one array element A[i] by -A[i].<br />
+<pre>
+<b>Invert the Binary Tree</b>
 
-You need to perform these modifications in such a way that after exactly B modifications, sum of the array must be maximum.<br />
-<br />
-<br />
-**Problem Constraints**<br />
-1 <= length of the array <= 5*10^5<br />
-1 <= B <= 5 * 10^6<br />
--100 <= A[i] <= 100<br />
-<br />
-<br />
-**Input Format**<br />
-The first argument given is an integer array A.<br />
-The second argument given is the integer B.<br />
-<br />
-<br />
-**Output Format**<br />
-Return an integer denoting the maximum array sum after B modifications.<br />
-<br />
-<br />
-**Example Input**<br />
-Input 1:<br />
- A = [24, -68, -29, -9, 84]<br />
- B = 4<br />
-Input 2:<br />
- A = [57, 3, -14, -87, 42, 38, 31, -7, -28, -61]<br />
- B = 10<br />
-<br />
-**Example Output**<br />
-Output 1:<br />
- 196<br />
-Output 2:<br />
- 362<br />
-<br />
-**Example Explanation**
-Explanation 1:<br />
- Final array after B modifications = [24, 68, 29, -9, 84].<br />
-Explanation 2:<br />
- Final array after B modifications = [57, -3, 14, 87, 42, 38, 31, 7, 28, 61]<br />
-                                           
+<b>Problem Description</b>
+Given a binary tree A, invert the binary tree and return it.
+Inverting refers to making the left child the right child and vice versa.
+
+<b>Problem Constraints</b>
+1 <= size of tree <= 100000
+
+<b>Input Format</b>
+First and only argument is the head of the tree A.
+
+<b>Output Format</b>
+Return the head of the inverted tree.
+
+<b>Example Input</b>
+Input 1:
+
+     1
+   /   \
+  2     3
+Input 2:
+ 
+     1
+   /   \
+  2     3
+ / \   / \
+4   5 6   7
+
+<b>Example Output</b>
+Output 1:
+ 
+     1
+   /   \
+  3     2
+Output 2:
+ 
+     1
+   /   \
+  3     2
+ / \   / \
+7   6 5   4
+
+<b>Example Explanation</b>
+		
+</pre>                                         
 <a class="Pagination-link1SfnH-8-DxMA Pagination-link_leftDFtcFdHnt7Ok" aria-label="Previous Page: Manage Pages" href="https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/tree/assignment/LCA/read.md">Prev</a>
 <p align="right"><a class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4" aria-label="Next Page: Raw Mode Editor" href="https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/tree/assignment/LCA/read3rdPage.md">Next</a></p>
