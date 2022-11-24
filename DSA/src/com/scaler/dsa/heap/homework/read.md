@@ -1,46 +1,52 @@
 <pre>
-<b>Least Common Ancestor</b>
+<b>B Closest Points to Origin</b>
 
 <b>Problem Description</b>
-Find the lowest common ancestor in an unordered binary tree A, given two values, B and C, in the tree.
-Lowest common ancestor: the lowest common ancestor (LCA) of two nodes and w in a tree or 
-directed acyclic graph (DAG) is the lowest (i.e., deepest) node that has both v and w as descendants.
+We have a list A of points (x, y) on the plane. Find the B closest points to the origin (0, 0).
+Here, the distance between two points on a plane is the Euclidean distance.
+You may return the answer in any order. The answer is guaranteed to be unique (except for the order that it is in.)
+NOTE: Euclidean distance between two points P1(x1, y1) and P2(x2, y2) is sqrt( (x1-x2)2 + (y1-y2)2 ).
 
 <b>Problem Constraints</b>
-1 <= size of tree <= 100000
-1 <= B, C <= 109
+1 <= B <= length of the list A <= 105
+-105 <= A[i][0] <= 105
+-105 <= A[i][1] <= 105
 
 <b>Input Format</b>
-First argument is head of tree A.
-Second argument is integer B.
-Third argument is integer C..
+The argument given is list A and an integer B.
 
 <b>Output Format</b>
-Return the LCA.
+Return the B closest points to the origin (0, 0) in any order.
 
 <b>Example Input</b>
 Input 1:
-      1
-     /  \
-    2    3
-B = 2
-C = 3
+ A = [ 
+       [1, 3],
+       [-2, 2] 
+     ]
+ B = 1
 Input 2:
-      1
-     /  \
-    2    3
-   / \
-  4   5
-B = 4
-C = 5
+ A = [
+       [1, -1],
+       [2, -1]
+     ] 
+ B = 1
 
 <b>Example Output</b>
 Output 1:
-  1
+ [ [-2, 2] ]
 Output 2:
-  2
+ [ [1, -1] ]
 
 <b>Example Explanation</b>
-		
+Explanation 1:
+
+ The Euclidean distance will be sqrt(10) for point [1,3] and sqrt(8) for point [-2,2].
+ So one closest point will be [-2,2].
+Explanation 2:
+
+ The Euclidean distance will be sqrt(2) for point [1,-1] and sqrt(5) for point [2,-1].
+ So one closest point will be [1,-1].
+
 </pre>	
 <p align="right"><a class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4" aria-label="Next Page: Raw Mode Editor" href="https://github.com/divyangju1991/DSA-Scaler/blob/main/DSA/src/com/scaler/dsa/heap/homework/read2ndPage.md">Next</a></p>
