@@ -1,41 +1,43 @@
 <pre>
-<b>Equal Tree Partition</b>
+<b>Kth Smallest Element in a Sorted Matrix</b>
 
 <b>Problem Description</b>
-Given a binary tree A. Check whether it is possible to partition the tree to two trees 
-which have equal sum of values after removing exactly one edge on the original tree.
+Given a sorted matrix of integers A of size N x M and an integer B.
+Each of the rows and columns of matrix A is sorted in ascending order, find the Bth smallest element in the matrix.
+
+NOTE: Return The Bth smallest element in the sorted order, not the Bth distinct element.
 
 <b>Problem Constraints</b>
-1 <= size of tree <= 100000
-0 <= value of node <= 109
+1 <= N, M <= 500
+1 <= A[i] <= 10^9
+1 <= B <= N * M
 
 <b>Input Format</b>
-First and only argument is head of tree A.
+The first argument given is the integer matrix A.
+The second argument given is an integer B.
 
 <b>Output Format</b>
-Return 1 if the tree can be partitioned into two trees of equal sum else return 0.
+Return the B-th smallest element in the matrix.
 
 <b>Example Input</b>
 Input 1:
  
-                5
-               /  \
-              3    7
-             / \  / \
-            4  6  5  6
+ A = [ [9, 11, 15],
+       [10, 15, 17] ] 
+ B = 6
 Input 2:
- 
-                1
-               / \
-              2   10
-                  / \
-                 20  2
+ A = [  [5, 9, 11],
+        [9, 11, 13],
+        [10, 12, 15],
+        [13, 14, 16],
+        [16, 20, 21] ]
+ B = 12
 
 <b>Example Output</b>
 Output 1:
-  1
+   17
 Output 2:
-  0
+   16
 
 <b>Example Explanation</b>
 		
