@@ -1,0 +1,28 @@
+package com.interview.hashing;
+
+public class FindTwoNumberDiffSum {
+	
+	public List<int[]> getTwoNumSumAndDiff(int[] a, int targetDiff, int targetSum){
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		Input: arr[] = {5, 20, 3, 2, 50, 80}, n = 78
+				Output: Diff Pair Found: (2, 80)
+				
+				Output : Target Sum => 52  (2, 50)
+				*/
+		
+		int[] arr = {5, 20, 3, 2, 50, 80};
+		int targetDiff = 78;
+		int targetSum = 52;
+		
+		
+	}
+
+}

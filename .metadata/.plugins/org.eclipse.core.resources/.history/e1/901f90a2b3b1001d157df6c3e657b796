@@ -1,0 +1,69 @@
+package com.interview.hashing;
+
+import java.util.*;
+
+public class FindTwoNumberDiffSum {
+	
+	//sum = a + b
+	//key => sum - a
+	//diff = a - b
+	//key => diff + a 
+	
+	public static List<int[]> getTwoNumSumAndDiff(int[] a, int targetDiff, int targetSum){
+		
+		Map<Integer, Integer> map = new HashMap<>();
+		int[] sumNum = new int[2];
+		int[] diffNum = new int[2];
+		boolean isSumNumFound = false;
+		boolean isDiffNumFound = false;
+		
+		for(int i=0; i<a.length; ++i){
+			
+			if(!isSumNumFound){
+				if(map.get(targetSum - a[i]) != null){
+					sumNum = new int[]{map.get(targetSum - a[i]), i};
+					isSumNumFound = true;
+				}
+			}
+			
+			if(!isDiffNumFound){
+				if(map.get(targetDiff + a[i]) != null){
+					diffNum = new int[]{map.get(targetDiff + a[i]), i};
+					isDiffNumFound = true;
+				}
+			}
+			
+			if(isSumNumFound && isDiffNumFound){
+				break;
+			}
+			map.put(a[i], i);
+		}
+		
+		List<int[]> ans = new ArrayList<>();
+		ans.add(diffNum);
+		ans.add(sumNum);
+		
+		return ans;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		Input: arr[] = {5, 20, 3, 2, 50, 80}, n = 78
+				Output: Diff Pair Found: (2, 80)
+				
+				Output : Target Sum => 52  (2, 50)
+				*/
+		
+		int[] arr = {5, 20, 3, 2, 50, 80};
+		int targetDiff = 78;
+		int targetSum = 52;
+		
+		List<int[]> ans = getTwoNumSumAndDiff(arr, targetDiff, targetSum);
+		
+		System.out.println(Arrays.toString(ans.get(0)));
+		System.out.println(Arrays.toString(ans.get(1)));
+	}
+
+}

@@ -1,0 +1,72 @@
+package com.interview.hashing;
+
+import java.util.*;
+
+public class FindTwoNumberDiffSum {
+	
+	//sum = a + b
+	//key => sum - a
+	//diff = a - b
+	//key => diff + a 
+	
+	public static List<int[]> getTwoNumSumAndDiff(int[] a, int targetDiff, int targetSum){
+		
+		Map<Integer, Integer> sumMap = new HashMap<>();
+		Map<Integer, Integer> diffMap = new HashMap<>();
+		int[] sumNum = new int[2];
+		int[] diffNum = new int[2];
+		boolean isSumNumFound = false;
+		boolean isDiffNumFound = false;
+		
+		for(int i=0; i<a.length; ++i){
+			
+			if(!isSumNumFound){
+				if(sumMap.get(targetSum - a[i]) != null){
+					sumNum = new int[]{sumMap.get(targetSum - a[i]), i};
+					isSumNumFound = true;
+				} else {
+					sumMap.put((targetSum - a[i]), i);
+				}
+			}
+			
+			if(!isDiffNumFound){
+				if(diffMap.get(targetDiff + a[i]) != null){
+					diffNum = new int[]{diffMap.get(targetDiff + a[i]), i};
+					isDiffNumFound = true;
+				} else {
+					sumMap.put((targetDiff + a[i]), i);
+				}
+			}
+			
+			if(isSumNumFound && isDiffNumFound){
+				break;
+			}
+		}
+		
+		List<int[]> ans = new ArrayList<>();
+		ans.add(sumNum);
+		ans.add(diffNum);
+		
+		return ans;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		Input: arr[] = {5, 20, 3, 2, 50, 80}, n = 78
+				Output: Diff Pair Found: (2, 80)
+				
+				Output : Target Sum => 52  (2, 50)
+				*/
+		
+		int[] arr = {5, 20, 3, 2, 50, 80};
+		int targetDiff = 78;
+		int targetSum = 52;
+		
+		List<int[]> ans = getTwoNumSumAndDiff(arr, targetDiff, targetSum);
+		
+		System.out.println(ans.toString());
+	}
+
+}
